@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>V. Veera Babu – Student & Professional Portfolio</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+    /* Reset & Global Styles */
+    * {margin:0; padding:0; box-sizing:border-box;}
+    body {font-family: 'Roboto', sans-serif; background: #869aab; color:#333; scroll-behavior: smooth;}
+    a {text-decoration: none; color: #5e717b;}
+    h1,h2,h3 {font-family: 'Montserrat', sans-serif;}
+    
+    /* Header */
+    header {
+        background: linear-gradient(135deg,#4a5a5d,#b3ffe3);
+        color: #fff;
+        text-align: center;
+        padding: 60px 20px;
+        position: relative;
+    }
+    .two-column {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.column {
+    flex: 1;
+    min-width: 250px;
+}
+
+    header img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border: 4px solid #fff;
+        object-fit: cover;
+        margin-bottom: 15px;
+        transition: transform 0.5s;
+    }
+    header img:hover {transform: scale(1.1);}
+    header h1 {font-size: 32px; margin-bottom: 5px;}
+    header p {font-size: 16px; margin: 5px;}
+    
+    /* Navbar */
+    nav {
+        display: flex;
+        justify-content: center;
+        background: #0077b6;
+        padding: 10px 0;
+        position: sticky;
+        top:0;
+        z-index: 999;
+    }
+    nav a {
+        margin: 0 20px;
+        color: #fff;
+        font-weight: 600;
+        transition: 0.3s;
+    }
+    nav a:hover {color: #00f2ff;}
+    
+    /* Sections */
+    section {
+        max-width: 1000px;
+        margin: 50px auto;
+        padding: 30px 20px;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        opacity: 0;
+        transform: translateY(50px);
+        transition: all 0.8s ease;
+    }
+    section.visible {opacity:1; transform: translateY(0);}
+    section h2 {color:#5f6568; margin-bottom:20px; border-bottom:2px solid #0077b6; display:inline-block; padding-bottom:5px;}
+    section ul {list-style:none; padding-left:0;}
+    section ul li {margin-bottom:10px; padding-left:25px; position:relative;}
+    section ul li::before {
+        content: '\f0a4';
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        position: absolute;
+        left:0;
+        color:#0077b6;
+    }
+
+    /* Two-column layout */
+    .two-column {display:flex; flex-wrap:wrap; gap:20px;}
+    .column {flex:1; min-width:250px;}
+    
+    /* Buttons */
+    .btn {
+        display:inline-block;
+        padding:10px 25px;
+        background:#0077b6;
+        color:#fff;
+        border-radius:25px;
+        margin-top:15px;
+        transition:0.3s;
+    }
+    .btn:hover {background:#00b4d8;}
+    
+    /* Footer */
+    footer {text-align:center; padding:20px; background:#0077b6; color:#fff; margin-top:50px;}
+    
+    /* Smooth Hover Effects */
+    h3 {color:#0077b6; margin-bottom:10px;}
+    h3:hover {color:#00b4d8; transition:0.3s;}
+    
+    /* Responsive */
+    @media(max-width:768px){.two-column{flex-direction:column;}}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+</nav>
+
+<!-- Header -->
+<header id="about">
+    <img src="VEERa.jpg" alt="V. Veera Babu">
+    <h1>V.VEERA</h1>
+    <p>B.Tech IT – 3rd Year | Andhra Loyola Institute of Engineering & Technology</p>
+    <p>Email: <a href="mailto:vadlamuriveerababu@gmail.com">vadlamuriveerababu@gmail.com</a> | Phone: 7337213796</p>
+    <a href="VVEERA_Portfolio.pdf" class="btn" download>Download PDF</a>
+</header>
+
+<!-- Career Objective -->
+<section>
+    <h2>Career Objective</h2>
+    <p>To build a successful career in Information Technology and Business Management by developing strong technical, leadership, and communication skills, while contributing to innovative projects and community growth.</p>
+</section>
+
+
+<!-- Education -->
+<section id="education">
+    <h2>Education</h2>
+    <ul>
+        <li>
+            <strong>B.Tech in Information Technology</strong> – Andhra Loyola Institute of Engineering & Technology, Vijayawada (Pursuing)
+        </li>
+        <li>
+            <strong>Diploma in CME Branch</strong> – VKR & VNB Polytechnic College, Gudivada | 77%
+        </li>
+        <li>
+            <strong>High School</strong> – Vidhyalaya High School, Gudivada | Completed with 10 points
+        </li>
+    </ul>
+</section>
+
+
+
+
+<!-- Skills -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="two-column">
+        <div class="column">
+            <ul>
+                <li>Teamwork</li>
+                <li>Strong Communication</li>
+                <li>Leadership</li>
+                <li>Problem Solving</li>
+            </ul>
+        </div>
+        <div class="column">
+            <ul>
+                <li>Time Management</li>
+                <li>Restaurant Management & Coordination</li>
+                <li>Basic Java & Database Knowledge</li>
+                <li>Entrepreneurial Thinking</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Experience -->
+<section id="experience">
+    <h2>Professional Experience</h2>
+    <h3>Assistant Captain – Restaurant</h3>
+    <ul>
+        <li>Managed coordination between kitchen and serving staff ensuring timely and accurate order delivery.</li>
+        <li>Handled KOT (Kitchen Order Ticket) reading and communication between departments.</li>
+        <li>Resolved customer complaints efficiently, ensuring satisfaction and repeat visits.</li>
+        <li>Assisted in closing daily bills and maintaining accurate records.</li>
+        <li>Supervised table management, hygiene, and service standards.</li>
+        <li>Developed strong leadership and interpersonal skills through real-time problem-solving.</li>
+    </ul>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <h2>Projects</h2>
+    <h3>Community Service Project (CSP) – Road Safety Awareness</h3>
+    <ul>
+        <li>Conducted awareness sessions on road safety among local community members.</li>
+        <li>Collected data and interacted with citizens to promote safe driving and pedestrian behavior.</li>
+        <li>Reported findings for evaluation and improvement.</li>
+    </ul>
+</section>
+
+<!-- Certifications -->
+<section id="certifications">
+    <h2>Certifications & Achievements</h2>
+    <ul>
+        <li>Wadhwani Foundation Entrepreneurship Certified</li>
+        <li>AWS & IoT Workshop Participant</li>
+        <li>CSP Certified</li>
+        <li>Worked as Assistant Captain in a restaurant — KOT handling, customer service, and bill management</li>
+        <li>Recognized for effective team handling and communication skills</li>
+    </ul>
+</section>
+
+<!-- Footer -->
+<footer>
+    &copy; 2025 V. Veera Babu | Portfolio
+</footer>
+
+<script>
+    // Reveal sections on scroll
+    const sections = document.querySelectorAll('section');
+    window.addEventListener('scroll', () => {
+        const scrollPos = window.scrollY + window.innerHeight - 100;
+        sections.forEach(sec => {
+            if(sec.offsetTop < scrollPos) sec.classList.add('visible');
+        });
+    });
+</script>
+
+</body>
+</html>
